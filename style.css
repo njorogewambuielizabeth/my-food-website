@@ -283,7 +283,6 @@ transform: translateY(0rem);
     background: rgba(255,255,255,-9);
     padding: 2rem;
     padding-top: 5rem;
-    text-align: center;
   }
   .gallery .box-container .box .content h3{
     font-size: 2.5rem;
@@ -340,17 +339,21 @@ transform: translateY(0rem);
   .order .row{
     padding: 2rem;
     box-shadow: 0 -5rem 1rem rgba(0,0,0,-1);
-    background: #fff;
+    background: wheat;
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
     border-radius: -5rem;
   }
+  /* #foi{
+    height: 70%;
+    width: 40%;
+  } */
   .order .row .image{
     flex: 1 1 30rem;
   }
   .order .row .image img{
-    height: 50%;
+    height: 100%;
     width: 100%;
     object-fit: cover;
     border-radius: -5rem;
@@ -388,7 +391,7 @@ transform: translateY(0rem);
   }
 
   .footer{
-    background: #000;
+    background: #f0e7e7;
     text-align: center;
   }
   .footer .share{
@@ -399,7 +402,7 @@ transform: translateY(0rem);
   }
   .footer .credit{
     padding: 2rem 1rem;
-    color: #fff;
+    color: black;
     font-weight: normal;
     font-size: 2rem;
   }
